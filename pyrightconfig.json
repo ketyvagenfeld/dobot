@@ -1,0 +1,20 @@
+{
+  "include": ["src"],
+  "exclude": [
+    ".git",
+    "dist",
+    "**/.ruff_cache",
+    "**/.pytest_cache",
+    "**/.gitignore",
+    "**/__pycache__",
+    "**/*.eggs",
+    "**/*.pyc",
+    "**/*.pyd"
+  ],
+  "pythonVersion": "3.13",
+  "pythonPlatform": "All",
+  "typeCheckingMode": "basic",
+  "reportMissingImports": "error",
+  "useLibraryCodeForTypes": true,
+  "reportMissingTypeStubs": false
+}
