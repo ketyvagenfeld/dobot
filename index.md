@@ -1,0 +1,24 @@
+# dobot
+
+## Installation
+
+```
+pip install dobot
+```
+
+With [`uv`](https://docs.astral.sh/uv/):
+
+```
+uv tool install dobot
+```
+
+## Running
+
+```
+# start robot
+uv run robot
+# start controller
+uv run controller
+# start both together
+uv run robot &; uv run controller
+```
