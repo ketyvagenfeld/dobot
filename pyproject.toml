@@ -28,7 +28,7 @@ name = "dobot"
 version = "0.1.0"
 description = "Robot project."
 readme = "README.md"
-authors = [{name = "Kety Vagenfeld", email = "ketyvagenfeld@gmail.com"}]
+authors = [{ name = "Kety Vagenfeld", email = "ketyvagenfeld@gmail.com" }]
 license = "MIT"
 license-files = ["LICENSE"]
 requires-python = ">=3.10"
@@ -49,10 +49,7 @@ classifiers = [
     "Topic :: Utilities",
     "Typing :: Typed",
 ]
-dependencies = [
-    "uv",
-    "opencv-python"
-]
+dependencies = ["uv", "opencv-python"]
 
 [project.urls]
 Homepage = "https://ketyvagenfeld.github.io/dobot"
@@ -66,6 +63,7 @@ Funding = "https://github.com/sponsors/ketyvagenfeld"
 
 [dependency-groups]
 maintain = [
+    "uv",
     "build>=1.2",
     "git-changelog>=2.5",
     "twine>=5.1",
@@ -83,14 +81,15 @@ ci = [
     "types-markdown>=3.6",
     "types-pyyaml>=6.0",
 ]
- docs = [
-    "markdown-callouts>=0.4",
-    "markdown-exec>=1.8",
+docs = [
     "mkdocs>=1.6",
+    "zensical>=0.0.5",
     "mkdocs-coverage>=1.0",
     "mkdocs-git-revision-date-localized-plugin>=1.2",
     "mkdocs-llmstxt>=0.2",
     "mkdocs-material>=9.5",
+    "markdown-exec>=1.8",
+    "markdown-callouts>=0.4",
     "mkdocs-minify-plugin>=0.8",
     "mkdocs-section-index>=0.3",
     "mkdocstrings[python]>=0.29",
